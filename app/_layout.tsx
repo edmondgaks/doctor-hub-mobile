@@ -50,7 +50,7 @@ function RootLayoutNav() {
   return (
     <RecoilRoot>
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-        <StatusBar style="dark" backgroundColor="#fff"/>
+        {/* <StatusBar style="dark" backgroundColor="#fff"/> */}
         <Slot />
       </ThemeProvider>
     </RecoilRoot>

@@ -25,7 +25,7 @@ const IndexPage = () => {
 
     return (
         <View>
-            {token ? <Redirect href={"/(home)/(tabs)"} /> : <Redirect href={"/(home)/(tabs)"} />}
+            {token ? <Redirect href={"/landing"} /> : <Redirect href={"/(home)/(tabs)"} />}
         </View>
     )
 }
