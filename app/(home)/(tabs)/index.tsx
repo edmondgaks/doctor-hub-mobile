@@ -7,9 +7,9 @@ import { useState } from 'react';
 
 
 export default function TabOneScreen() {
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState<string>('');
 
-  const handleInputChange = (text) => {
+  const handleInputChange = (text: string) => {
     setInputValue(text);
   };
 
